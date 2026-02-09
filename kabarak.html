@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabarak University</title>
 </head>
-<body>
-    <h1>KABARAK UNIVERSITY</h1>
-    <hr>
+<body style="margin:7.5%; background-image:url('bg.jpg');">
+    <h1 style="color:#660000; border-bottom:dashed 2px #660000; padding: 5px;">KABARAK UNIVERSITY</h1>
     <h2>ABOUT</h2>
     <h3>History</h3>
     <p>Kabarak University is a <b>private Christian university</b> located in Nakuru, Kenya. It was established in 2002 and is known for its commitment to academic excellence and <i>holistic education</i>.The university offers a wide range of undergraduate and postgraduate programs across various fields including business, education, health sciences, law, and social sciences.</p>
@@ -26,11 +25,74 @@
         <li>School of Theology and Religious Studies</li>
     </ol>
     </p>
-    <h2>Accomodation</h2>
-    <h3>Men Hostels</h3>
-    <h3>Ladies Hostel</h3>
+    <h2 style="font-style: italic;">Accomodation</h2>
+    <h3>Hostels</h3>
+    <!--THIS IS A TABLE-->
+    <table border="1" style="background-color: cadetblue;">
+        <caption><b><u>Hostels</u></b></caption>
+        <thead>
+            <tr>
+                <th>Hostel</th> <th>#</th> <th>Name</th> <th>Population</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="5" style="background-color:cyan;">Men's Hostel</td>
+            </tr>
+                <td>1</td> <td style="background-color:red;">Elementaita</td> <td style="background-color: crimson;">250</td>
+            <tr>
+                <td>2</td> <td style="background-color: blueviolet;">Bogoria</td> <td style="background-color: orangered;">250</td>
+            </tr>
+            <tr>
+                <td>3</td> <td style="background-color: chocolate;">Turkana</td> <td style="background-color: darkorchid;">250</td>
+            </tr>
+            <tr>
+                <td>4</td> <td  style="background-color: darkmagenta;">Baringo</td> <td style="background-color: palevioletred;">250</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="6" style="background-color: rosybrown;">
+                    Ladies' Hostel
+                </td>
+            </tr>
+
+                 <td>1</td> <td style="background-color: deeppink;">Kabon</td> <td style="background-color: sienna;">130</td>
+            </tr>
+            <tr>
+                 <td>2</td> <td style="background-color: skyblue;">Lena Moi</td> <td style="background-color: saddlebrown;">130</td>
+            </tr>
+            <tr>
+                 <td>3</td> <td style="background-color: royalblue;">Sote A</td> <td style="background-color: salmon;">130</td>
+            </tr>
+            <tr>
+                 <td>4</td> <td style="background-color: rebeccapurple;">Sote B</td> <td style="background-color: rosybrown;">130</td>  
+            </tr>
+            <tr>
+                 <td>5</td> <td style="background-color: aquamarine;">Central</td> <td style="background-color: darkkhaki;">130</td>
+            </tr>
+        </tbody>
+    </table>
     <h2>Student Experience</h2>
     <h3>Games</h3>
     <h3>Clubs and Societes</h3>
+    <h2>Contact Us</h2>
+    <form>
+        <h3>Contact Form</h3>
+        <hr>
+        <label for="email">Email</label>
+        <input type="email" required><br><br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" required><br><br>
+
+        <label for="message">Message</label>
+        <textarea></textarea><br><br>
+
+        <input type="submit" value="Send"><br><br>
+
+
+        
+    </form>
 </body>
 </html>
